@@ -1,0 +1,227 @@
+/****** BASE STYLES ******/
+
+body {font-family: 'Open Sans', sans-serif;
+margin: 0 auto;
+ }
+
+
+ .container{
+   margin: 0 0 0 0px;
+   overflow: auto;
+
+ }
+
+/****** GRID ******/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+
+}
+
+/****** HEADER ******/
+
+ header {
+   height: 800px;
+ }
+
+ header h1, h2, h3 {
+   text-align: left;
+   color: #313131;
+ }
+
+ header h1 {
+   color: #313131;
+   font-size: 59pt;
+   font-weight: bold;
+   font-family:'Libre Baskerville', serif;
+   margin: 90px 0px 0px 0px;
+   padding-top: 40px;
+
+ }
+
+ header h1 span{
+   color: #ff654a;
+ }
+
+ h1 img{
+   padding: 0px 40px 0px 0px;
+ }
+
+ header h3{
+   font-size: 48pt;
+   font-weight: 300;
+   font-family:
+ }
+
+header nav{
+  float: right;
+}
+
+header nav ul li{
+  display: inline-block;
+}
+
+header nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-left: 25px;
+  font-weight: bold;
+  color: #313131;
+}
+
+ /****** ABOUT ******/
+
+ #about {
+   height: 1050px;
+   background-color: #ff654a;
+
+ }
+
+
+ #about h2 {
+   font-family: 'Libre Baskerville', serif;
+   font-size: 36pt;
+   text-align: center;
+   color: #ffffff
+ }
+
+ #about h3{
+   font-size: 24pt;
+   font-weight: 400;
+   text-align: center;
+   color: #ffffff;
+ }
+
+
+ #about img{
+   border: 5px solid #ffffff;
+   margin: 0px 0px 0px 442px;
+   padding: 0px 0px 0px 0px;
+
+ }
+
+ #about p{
+   color: #ffffff;
+   font-size: 16pt;
+   text-align: center;
+   width: 660px;
+   padding-left: 270px;
+ }
+
+ /****** PORTFOLIO ******/
+
+ #portfolio {
+   height: 850px;
+ }
+
+ #portfolio h2{
+   text-align: center;
+   font-family: 'Libre Baskerville', serif;
+   color: #313131;
+   font-size: 36pt;
+   margin: 50px 0px 0px 0px;
+   padding: 40px 0px 60px 0px;
+
+ }
+
+ #portfolio h3 {
+   text-align: center;
+ }
+
+ #portfolio p{
+   font-size: 12pt;
+   font-weight: normal;
+
+ }
+
+ #rogue-pickings,
+ #jubilee,
+ #holstee
+ {
+
+ float: left;
+ padding: 0px 0px 0px 0px;
+ margin: 175px 0px 0px 0px;
+ text-align: center;
+}
+
+
+
+ #rogue-pickings{
+   margin: 0px 35px 0px 0px;
+   padding: 0px 0px 0px 0px;
+
+ }
+
+ #jubilee {
+   margin: 0px 35px 0px 35px;
+   padding: 0px 0px 0px 0px;
+ }
+
+ #holstee{
+   margin: 0px 0px 0px 35px;
+   padding: 0px 0px 0px 0px;
+ }
+
+
+ /****** CONTACT ******/
+
+ #contact {
+   height: 650px;
+   margin: 0 auto;
+   text-align: center;
+   background-color: #ff654a;
+   color: #ffffff;
+   margin: 0 auto;
+ }
+
+
+ #contact h2 {
+   padding-top: 140px;
+   margin: 0 auto;
+   text-align: center;
+   font-family: 'Libre Baskerville', serif;
+   font-size: 36pt;
+   color: #ffffff;
+
+ }
+
+ #contact h3 {
+   text-align: center;
+   color: #ffffff;
+
+ }
+
+ #contact nav ul {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+#contact nav ul li {
+ 	padding: 0 10px;
+ 	display: inline;
+
+ }
+
+footer {
+  clear: both;
+}
+
+footer p {
+  text-align: center;
+  margin: 300px 0px 0px 0px;
+
+}
